@@ -1,0 +1,248 @@
+/* Responsive layout rules matching desktop, laptop, tablet, and mobile breakpoints */
+
+@media (min-width: 640px) {
+  .header-inner {
+    padding-inline: 1.5rem;
+  }
+
+  .header-actions {
+    gap: 0.75rem;
+  }
+
+  .eyebrow-text {
+    font-size: 0.875rem;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+
+  .page-hero-title {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+
+  .fleet-title {
+    font-size: 2.25rem;
+  }
+
+  .standard-cards-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .royal-title {
+    font-size: 1.875rem;
+  }
+
+  .royal-subtitle {
+    font-size: 1rem;
+  }
+
+  .royal-grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cta-card-title {
+    font-size: 1.5rem;
+  }
+
+  .concierge-title {
+    font-size: 1.875rem;
+  }
+
+  .concierge-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-card-dark,
+  .btn-concierge {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    padding-top: 5rem;
+  }
+
+  .header-inner {
+    height: 5rem;
+    gap: 2rem;
+  }
+
+  .brand-logo {
+    height: 2.25rem;
+  }
+
+  .brand-name {
+    font-size: 1.375rem;
+  }
+
+  .desktop-nav {
+    display: flex;
+  }
+
+  .lang-btn {
+    min-height: 34px;
+  }
+
+  .mobile-menu-btn,
+  .mobile-drawer,
+  .mobile-bottom-nav {
+    display: none;
+  }
+
+  .section-header-row {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .section-link-btn {
+    align-self: auto;
+  }
+
+  .fleet-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .fleet-grid-dark {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .services-overview-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .fleet-controls {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search-wrap {
+    width: 18rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .site-footer {
+    padding-block: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container,
+  .header-inner,
+  .cta-centered {
+    padding-inline: 3rem;
+  }
+
+  .btn-header-whatsapp {
+    display: inline-flex;
+  }
+
+  .hero {
+    min-height: 680px;
+  }
+
+  .hero-content {
+    padding-block: 6rem;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    line-height: 64px;
+  }
+
+  .section-light,
+  .section-dark,
+  .section-low {
+    padding-block: 6rem;
+  }
+
+  .section-title-dark,
+  .section-title-light {
+    font-size: 2.5rem;
+    line-height: 48px;
+  }
+
+  .standard-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .standard-intro {
+    grid-column: span 5 / span 5;
+  }
+
+  .standard-cards-grid {
+    grid-column: span 7 / span 7;
+  }
+
+  .page-hero {
+    padding-block: 4rem;
+  }
+
+  .page-hero-title {
+    font-size: 3.25rem;
+    line-height: 60px;
+  }
+
+  .services-section-light {
+    padding-block: 5rem;
+  }
+
+  .services-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .service-pillar-body {
+    padding: 2rem;
+  }
+
+  .section-obsidian {
+    padding-block: 5rem;
+  }
+
+  .royal-grid-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .cta-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .fleet-header-section {
+    padding-block: 3.5rem;
+  }
+
+  .fleet-hero-row {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .fleet-count-box {
+    align-self: auto;
+  }
+
+  .fleet-grid-section {
+    padding-block: 2.5rem;
+  }
+
+  .fleet-grid-dark {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .concierge-section {
+    padding-block: 4rem;
+  }
+
+  .concierge-card {
+    padding: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+  }
+}
